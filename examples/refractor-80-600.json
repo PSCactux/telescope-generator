@@ -1,0 +1,47 @@
+{
+  "name": "Refractor 80/600 (UNVERIFIED example)",
+  "verified": false,
+  "notes": "Illustrative values for a typical 80/600 achromat. Not printed or tested: print the gauges first and replace every measurement with your own.",
+  "objective": {
+    "clear_aperture": 80,
+    "focal_length": 600,
+    "measured_diameter": 82.0,
+    "radial_clearance": 0.15,
+    "edge_thickness": 14.0,
+    "shelf_width": 2.0
+  },
+  "eyepiece_holder": {
+    "barrel_diameter": 31.75,
+    "radial_clearance": 0.075,
+    "insertion_length": 22,
+    "field_stop_depth": 6,
+    "focus_travel": 24
+  },
+  "eyepieces": [
+    {"focal_length": 25, "apparent_fov": 52},
+    {"focal_length": 10, "apparent_fov": 52},
+    {"focal_length": 6, "apparent_fov": 60}
+  ],
+  "tube": {
+    "wall_thickness": 3,
+    "max_segment_length": 220,
+    "focus_spacers": [16, 20, 30]
+  },
+  "fit": {
+    "thread_clearance": 0.25,
+    "slip_clearance": 0.25
+  },
+  "accessories": {
+    "dew_shield_length": 120,
+    "dust_cap": true
+  },
+  "tripod": {
+    "mode": "nut_pocket",
+    "screw_protrusion": 6
+  },
+  "printer": {
+    "bed_x": 256,
+    "bed_y": 256,
+    "max_height": 256
+  }
+}

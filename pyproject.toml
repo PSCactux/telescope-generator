@@ -1,0 +1,34 @@
+[project]
+name = "telescope-generator"
+version = "0.1.0"
+description = "Generate a 3D-printable refractor telescope (STL) from the measurements of your own lens and eyepiece."
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "PSCactux" }]
+requires-python = ">=3.11"
+dependencies = [
+    "manifold3d>=3.0,<4",
+    "trimesh>=4.0",
+    "numpy>=1.26",
+    "scipy>=1.11",
+    "matplotlib>=3.8",
+    "shapely>=2.0",
+    "networkx>=3.0",
+    "rtree>=1.0",
+]
+
+[project.scripts]
+telescope-generator = "telescope_generator.cli:main"
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/telescope_generator"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

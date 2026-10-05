@@ -1,0 +1,47 @@
+{
+  "name": "Refractor 70/400",
+  "verified": true,
+  "notes": "Printed in PETG (0.4 mm nozzle, 0.20 mm layers, 2 walls), assembled and used. Numbers from the fit gauges that fitted.",
+  "objective": {
+    "clear_aperture": 70,
+    "focal_length": 400,
+    "gauge_fit_diameter": 72.25,
+    "edge_thickness": 15.5,
+    "shelf_width": 2.625
+  },
+  "eyepiece_holder": {
+    "barrel_diameter": 31.75,
+    "gauge_fit_bore": 31.9,
+    "insertion_length": 20,
+    "field_stop_depth": 6,
+    "focus_travel": 18
+  },
+  "eyepieces": [
+    {"focal_length": 20, "apparent_fov": 50},
+    {"focal_length": 10, "apparent_fov": 50},
+    {"focal_length": 9, "apparent_fov": 45}
+  ],
+  "tube": {
+    "wall_thickness": 3,
+    "max_segment_length": 200,
+    "focus_spacers": [16, 20, 30]
+  },
+  "fit": {
+    "thread_clearance": 0.25,
+    "slip_clearance": 0.25
+  },
+  "accessories": {
+    "dew_shield_length": 100,
+    "dust_cap": true
+  },
+  "tripod": {
+    "mode": "printed_thread",
+    "thread_clearance": 0.25,
+    "screw_protrusion": 5
+  },
+  "printer": {
+    "bed_x": 256,
+    "bed_y": 256,
+    "max_height": 256
+  }
+}

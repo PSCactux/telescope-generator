@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+# Generated output (examples in docs/ are tracked)
+out/
+gauges/
+*.stl
+!docs/**/*.stl
